@@ -1,0 +1,22 @@
+.logos{
+    display: flex; 
+    justify-content: space-around;
+    width: 100%; 
+    align-items: center; 
+    margin-bottom: 4rem; 
+    margin-top: 2rem; 
+    
+}
+.logos span{
+text-align: center;
+}
+.logos img{
+    width: 60px; 
+}
+
+@media (min-width: 700px) {
+    .logos{
+        margin: 8rem 0 0 0; 
+        justify-content: space-between;
+    }
+}

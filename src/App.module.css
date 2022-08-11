@@ -1,0 +1,69 @@
+@import './variables.css';
+header{
+    margin: 1rem; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.textSection{
+    text-align: center; 
+    margin: 2rem 1rem; 
+}
+
+h1{
+    font-size: 2.2rem;
+}
+.description{
+color: var(--gray); 
+line-height: 1.5em;
+margin: 1.5rem 0; 
+}
+
+.heroImage{
+    width: 100%; 
+}
+.heroImage img{
+    width: 100%; 
+}
+
+@media (min-width: 700px){
+    header{
+        justify-content: normal;
+    }
+    main{
+        display: flex;
+        gap: 7rem;
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 80vh; 
+        padding: 1rem; 
+    }
+
+    .textSection{
+        text-align: left; 
+        max-width: 600px; 
+        height: 100%; 
+        margin: 0; 
+        display: flex; 
+        flex-direction: column; 
+       justify-content: flex-end;
+    }
+
+    .description{
+        max-width: 26rem; 
+    }
+
+    h1{
+        font-size: 4.5rem; 
+        max-width: 30rem; 
+    }
+
+    .heroImage{
+       max-width: 500px; 
+       padding: 1rem;
+    }
+
+   
+}

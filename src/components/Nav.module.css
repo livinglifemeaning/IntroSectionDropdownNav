@@ -1,0 +1,98 @@
+@import '../variables.css'; 
+.nav{
+    position: fixed; 
+    background-color: var(--light) ;
+    z-index: 100; 
+    top: 0; 
+    right: 0; 
+    height: 100%; 
+    width: 60%; 
+    padding: 1rem; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-end;
+    gap: 2rem; 
+    color: var(--gray); 
+
+}
+
+.navList{
+    width: 100%; 
+}
+.navList ul{
+    list-style-type: none;
+    padding: 0; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 1rem; 
+}
+
+.navList ul li{
+    display: flex; 
+    align-items: baseline;
+    gap: 1rem; 
+}
+
+.navList ul li:hover, .navButtons p:hover{
+    cursor: pointer; 
+    color: var(--dark); 
+}
+
+.navButtons{
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    gap: 1rem; 
+}   
+.expandedList ul{
+    margin-left: 1rem; 
+    margin-bottom: .5rem; 
+}
+
+@media (min-width: 700px) {
+    .nav{
+        position: static; 
+        background-color: transparent; 
+        flex-direction: row; 
+        align-items: flex-start; 
+        padding: 0 2rem 2rem 2rem; 
+        width: 100%; 
+    }
+
+    .navList ul{
+        flex-direction: row; 
+        position: relative; 
+        gap: 3rem; 
+    }
+
+    .navButtons{
+        flex-direction: row; 
+        width: auto; 
+        gap: 3rem; 
+    }
+
+    .expandedList ul{
+        position: absolute; 
+        display: flex; 
+        flex-direction: column; 
+        gap: 1rem; 
+        box-shadow: 0 5px 10px hsla(0, 0%, 50%, 0.8); 
+        padding: 1rem; 
+        margin: 0; 
+        border-radius: 5px; 
+        z-index: 100; 
+        background-color: #fff;
+    }
+
+    .expandedList.featuresExpanded ul{
+        top: 2rem;
+        left: 0; 
+    }
+
+    .expandedList.companyExpanded ul{
+        left: 0; 
+        top: 2rem; 
+        transform: translateX(145px);
+    }
+}
