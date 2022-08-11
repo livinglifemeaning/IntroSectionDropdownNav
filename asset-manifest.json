@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/IntroSectionDropdownNav/static/css/main.7b887f2e.css",
+    "main.js": "/IntroSectionDropdownNav/static/js/main.14e91770.js",
+    "static/media/herodsktp.png": "/IntroSectionDropdownNav/static/media/herodsktp.50cc22fddeb0c072b414.png",
+    "static/media/heromobile.png": "/IntroSectionDropdownNav/static/media/heromobile.adefc8b1bbed2ca80470.png",
+    "static/media/databiz.svg": "/IntroSectionDropdownNav/static/media/databiz.d1e7955f847e089183caf61eb54feb51.svg",
+    "static/media/logo.svg": "/IntroSectionDropdownNav/static/media/logo.1c174ccea84ec59ff8801662c788919d.svg",
+    "static/media/maker.svg": "/IntroSectionDropdownNav/static/media/maker.3859368b1ba7e579d814353870c9edb0.svg",
+    "static/media/meet.svg": "/IntroSectionDropdownNav/static/media/meet.2d6ffbad4108ea24377c66fe7655736e.svg",
+    "static/media/audiophile.svg": "/IntroSectionDropdownNav/static/media/audiophile.8c670cdffe9fb124c848d53dcbee7913.svg",
+    "index.html": "/IntroSectionDropdownNav/index.html",
+    "static/media/reminders.svg": "/IntroSectionDropdownNav/static/media/reminders.d573f5028c4469edf76a0b57065af566.svg",
+    "static/media/planning.svg": "/IntroSectionDropdownNav/static/media/planning.7264cc64a81fa348da1d23defa87d2b5.svg",
+    "static/media/calendar.svg": "/IntroSectionDropdownNav/static/media/calendar.238c231afbc7d43b81c625ceea0d1b37.svg",
+    "static/media/todo.svg": "/IntroSectionDropdownNav/static/media/todo.84eeba8f3b9a1811c1ea3d7420dcfd98.svg",
+    "static/media/close.svg": "/IntroSectionDropdownNav/static/media/close.3f33fd68b142340b7eb8c6887f92ee0c.svg",
+    "static/media/menu.svg": "/IntroSectionDropdownNav/static/media/menu.863803c904916606b7a1998b3c5736aa.svg",
+    "static/media/downarrow.svg": "/IntroSectionDropdownNav/static/media/downarrow.bebf05132571af33611ede9cdfdbed0f.svg",
+    "static/media/uparrow.svg": "/IntroSectionDropdownNav/static/media/uparrow.01861a1152dfab5f1070228d306352f4.svg",
+    "main.7b887f2e.css.map": "/IntroSectionDropdownNav/static/css/main.7b887f2e.css.map",
+    "main.14e91770.js.map": "/IntroSectionDropdownNav/static/js/main.14e91770.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b887f2e.css",
+    "static/js/main.14e91770.js"
+  ]
+}
